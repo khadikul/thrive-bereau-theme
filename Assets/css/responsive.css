@@ -1,0 +1,221 @@
+
+/* ========================= Responsive =========================== */
+@media(max-width: 1200px){
+    html{
+      font-size: 55%;
+    }
+    .header-main .logo img{
+      width: 140px;
+      height: 27px;
+    }
+  
+    .hero::before {
+      height: 78%;
+    }
+}
+    
+@media(max-width: 991px){
+    .header-1,
+    .header-2{
+      padding: 2rem;
+    }
+  
+    section{
+      padding: 2rem;
+    }
+  
+    .our-partners .partners-container .partners-img .image-box{
+      flex: 1 8%;
+    }
+  
+    .apps-lists .apps-box{
+      flex-basis: 40%;
+      margin: auto;
+    }
+  
+    
+}
+    
+@media(max-width: 768px){
+    nav.menu{
+      display: none;
+      position: absolute;
+      top: 100%;
+    }
+  
+    .menu>ul{
+      display: initial;
+      width: 100%;
+    }
+  
+    #nav-icon1{
+      display: block;
+    }
+  
+    .header-main .logo img{
+      width: 160px;
+      height: 37px;
+    }
+  
+    .hero .hero-image img{
+      display: none;
+    }
+    
+    .hero{
+      display: block;
+      text-align: center;
+      margin-top: 5rem;
+    }
+  
+    .hero::before {
+      width: 100%;
+      height: 85%;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 83%, 0% 100%, 0% 90%);
+    }
+  
+    .hero .hero-content p{
+      width: 70%;
+      margin: auto;
+    }
+  
+    .hero-button{
+      margin-top: 7.5rem;
+    }
+  
+    .services .left-side, .services .right-side{
+      flex: 1 53%;
+    }
+  
+    .services .right-side img {
+      width: 90%;
+      margin-left: 74px;
+    }
+  
+    .our-partners .partners-container .partners-img .image-box{
+      flex: 1 14%;
+    }
+  
+    .footer .footer-widget .widget{
+      flex: 1 20%;
+      text-align: center;
+    }
+    
+    .footer .footer-widget .widget:nth-child(5){
+      flex: 1 100%;
+    }
+  
+  
+}
+    
+@media(max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+
+    .hero{
+        display: block;
+        background: linear-gradient(150deg, #714B67 20%, #542D4B 80%) !important;
+        height: 70%;
+        text-align: left;
+    }
+
+    .hero .hero-content span{
+        font-size: 3.5rem;
+    }
+
+    .hero .hero-content h3{
+        font-size: 4.7rem;
+        line-height: .5;
+    }
+
+    .hero::before {
+        content: none;
+    }
+
+    .hero .hero-content p{
+        margin: 0;
+        margin-top: 2rem;
+        font-size: 2.3rem;
+        width: 100%;
+    }
+
+    .hero{
+        margin-top: 0;
+    }
+
+    .services .right-side img {
+        margin-left: 41px;
+    }
+
+
+    .services .left-side h2{
+        font-size: 4rem;
+    }
+
+    .services .left-side h3{
+        font-size: 4.5rem;
+    }
+
+    .services .left-side p{
+        font-size: 1.8rem;
+    }
+
+    .single-services-btn {
+        max-width: 85%;
+    }
+
+    .footer .footer-widget .widget{
+        flex: 1 40%;
+        text-align: center;
+    }
+
+    .apps-lists .apps-box{
+        flex-basis: 100%;
+        margin: auto;
+    }
+
+    .all-app-hero .all-app-content{
+        display: block;
+        text-align: center;
+    }
+
+    .all-app-content .all-app-hero-left{
+        margin: 3rem 0;
+    }
+
+
+}
+  
+@media(max-width: 375px){
+    .services .right-side img {
+        margin-left: 36px;
+    }
+
+}
+  
+@media(max-width: 325px){
+    section, footer{
+        padding: 2rem 4%;
+    }
+    .hero-button {
+        display: inline-grid;
+        gap: 1rem;
+    }
+
+    .services .left-side h3{
+        font-size: 4rem;
+    }
+
+    .hero .hero-content h3{
+        font-size: 4.7rem;
+        line-height: 1;
+    }
+
+    .services .right-side img {
+        margin-left: 30px;
+    }
+
+    .single-services-btn {
+        max-width: 95%;
+    }
+}
